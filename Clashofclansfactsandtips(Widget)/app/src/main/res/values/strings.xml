@@ -5,4 +5,29 @@
     <string name="action_settings">Settings</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
+    <string name="fact1">All the hidden teslas reveal themselves automatically after 50% damage</string>
+    <string name="fact2">The mortar fires shells every 5 seconds</string>
+    <string name="fact3">It is best to keep air defences in a traingle or square formation</string>
+    <string name="fact4">The upgrade costs of dark elixir troops increases by 10k per level</string>
+    <string name="fact5">Attacking lower town halls results in a loot penalty</string>
+    <string name="fact6">Removing the gem box gets you 25 gems</string>
+    <string name="fact7">The gem box DOES NOT store your gems, you can remove it without any worries</string>
+    <string name="fact8">Deploying all your barbarians/archers/goblins at one single spot can be a bad idea, the mortar can take them out in no time</string>
+    <string name="fact9">Keep the mortars in a way that they overlap each other</string>
+    <string name="fact10">The cannon\'s maximum damage/second is 98</string>
+    <string name="fact11">Cannon\'s can be used to defend mortars and wizard towers by keeping them within range</string>
+    <string name="fact12">The cannon can be ideally used to take out wall breakers</string>
+    <string name="fact13">Upgrade archer towers before upgrading cannons</string>
+    <string name="fact14">The archer tower\'s maximum damage/second is 98</string>
+    <string name="fact15">The archer tower\'s maximum damage/shot is 49</string>
+    <string name="fact16">The cannon\'s maximum damage/shot is 78.4</string>
+    <string name="fact17">The cannon shoots a shell every 0.8 seconds</string>
+    <string name="fact18">The archer tower shoots an arrow every 0.5 seconds</string>
+    <string name="fact19">Keep the air defences behind a layer of other defences</string>
+    <string name="fact20">The air defence\'s maximum damage/second is 320</string>
+    <string name="fact21">A great way to take out air defences is via Minion\'s. Make sure there is no Wizard tower near by though</string>
+    <string name="fact22">Putting your Wizard towers near storages is a great way of protecting them against hoards of goblins,archers or barbarians</string>
+    <string name="fact23">Wizard Towers and Mortars are quite complementary, as they can each cover the others weaknesses</string>
+    <string name="fact24">To destroy a Wizard Tower, use Giants to distract and take it out using Minion\'s archers or other ranged troops</string>
+
 </resources>
