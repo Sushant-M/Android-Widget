@@ -24,10 +24,10 @@ public class CocWidget extends AppWidgetProvider {
             Resources res = context.getResources();
             String[] Mylist;
             Mylist = res.getStringArray(R.array.fact_list);
-            double key = random();
-            int conv = (int)key;
-            String toBeDisplayed = Mylist[conv];
-
+            int key = random();
+            String toBeDisplayed = Mylist[key];
+            RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.coc_widget);
+            views.setTextViewText(R.id.appwidget_text,toBeDisplayed);
         }
     }
 
@@ -36,9 +36,10 @@ public class CocWidget extends AppWidgetProvider {
     public void onEnabled(Context context) {
         // Enter relevant functionality for when the first widget is created
     }
-    public double random(){
-        double randomno;
-        randomno = Math.random();
+    public int random(){
+        int randomno;
+        Random random = null;
+        randomno = random.nextInt(25);
         return randomno;
     }
     @Override
@@ -48,7 +49,7 @@ public class CocWidget extends AppWidgetProvider {
 
     static void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
                                 int appWidgetId) {
-        
+
         CharSequence widgetText = "All the hidden teslas reveal themselves automatically after 50% damage";
         // Construct the RemoteViews object
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.coc_widget);
