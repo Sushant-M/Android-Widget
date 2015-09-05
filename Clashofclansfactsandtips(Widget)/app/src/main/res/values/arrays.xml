@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fact_list">
+        <item>All the hidden teslas reveal themselves automatically after 50% damage</item>
+        <item>The mortar fires shells every 5 seconds</item>
+        <item>It is best to keep air defences in a traingle or square formation</item>
+        <item>The upgrade costs of dark elixir troops increases by 10k per level</item>
+        <item>Attacking lower town halls results in a loot penalty</item>
+        <item>Removing the gem box gets you 25 gems</item>
+        <item>The gem box DOES NOT store your gems, you can remove it without any worries</item>
+        <item>Deploying all your barbarians/archers/goblins at one single spot can be a bad idea, the mortar can take them out in no time</item>
+        <item>Keep the mortars in a way that they overlap each other</item>
+        <item>The cannon\'s maximum damage/second is 98</item>
+        <item>Cannon\'s can be used to defend mortars and wizard towers by keeping them within range</item>
+        <item>The cannon can be ideally used to take out wall breakers</item>
+        <item>Upgrade archer towers before upgrading cannons</item>
+        <item>The archer tower\'s maximum damage/second is 98</item>
+        <item>The archer tower\'s maximum damage/shot is 49</item>
+        <item>The cannon\'s maximum damage/shot is 78.4</item>
+        <item>The cannon shoots a shell every 0.8 seconds</item>
+        <item>The archer tower shoots an arrow every 0.5 seconds</item>
+        <item>Keep the air defences behind a layer of other defences</item>
+        <item>The air defence\'s maximum damage/second is 320</item>
+        <item>A great way to take out air defences is via Minion\'s. Make sure there is no Wizard tower near by though</item>
+        <item>Putting your Wizard towers near storages is a great way of protecting them against hoards of goblins,archers or barbarians</item>
+        <item>Wizard Towers and Mortars are quite complementary, as they can each cover the others weaknesses</item>
+        <item>To destroy a Wizard Tower, use Giants to distract and take it out using Minion\'s archers or other ranged troops</item>
+    </array>
+</resources>
