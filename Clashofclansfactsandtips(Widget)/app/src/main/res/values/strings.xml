@@ -3,7 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="appwidget_text">EXAMPLE</string>
+    <string name="appwidget_text">COC facts widget</string>
     <string name="add_widget">Add widget</string>
     <string name="fact1">All the hidden teslas reveal themselves automatically after 50% damage</string>
     <string name="fact2">The mortar fires shells every 5 seconds</string>
