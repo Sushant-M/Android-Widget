@@ -26,8 +26,7 @@ public class CocWidget extends AppWidgetProvider {
             Mylist = res.getStringArray(R.array.fact_list);
             int key = random();
             String toBeDisplayed = Mylist[key];
-            RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.coc_widget);
-            views.setTextViewText(R.id.appwidget_text,toBeDisplayed);
+
         }
     }
 
@@ -36,9 +35,21 @@ public class CocWidget extends AppWidgetProvider {
     public void onEnabled(Context context) {
         // Enter relevant functionality for when the first widget is created
     }
+
+    /*
+    public String GenrateString(){
+        Resources res = context.getResources();
+        String[] Mylist;
+        Mylist = res.getStringArray(R.array.fact_list);
+        int key = random();
+        String toBeDisplayed = Mylist[key];
+        return toBeDisplayed;
+    }
+*/
+
     public int random(){
         int randomno;
-        Random random = null;
+        Random random = new Random();
         randomno = random.nextInt(25);
         return randomno;
     }
@@ -58,6 +69,7 @@ public class CocWidget extends AppWidgetProvider {
         // Instruct the widget manager to update the widget
         appWidgetManager.updateAppWidget(appWidgetId, views);
     }
+
 }
 
 
